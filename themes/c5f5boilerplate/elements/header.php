@@ -18,6 +18,7 @@ define("DEVICE_TYPE", $deviceType);
 <head>
     <?php Loader::packageElement('header_required', 'c5f5boilerplate'); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo $this->getThemePath(); ?>/main.css">
     <script src="<?php echo $this->getThemePath(); ?>/bower_components/modernizr/modernizr.js"></script>
     <?php
